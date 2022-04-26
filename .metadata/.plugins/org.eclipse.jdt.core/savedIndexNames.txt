@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Github\Tienda-Saudade\.metadata\.plugins\org.eclipse.jdt.core
+1664097522.index
+1865797976.index
+354017189.index

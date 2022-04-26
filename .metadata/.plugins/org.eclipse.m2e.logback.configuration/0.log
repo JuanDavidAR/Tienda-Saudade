@@ -1,0 +1,24 @@
+2022-04-25 19:02:56,180 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-04-25 19:03:44,605 [Worker-5: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.web.tienda:tienda-Saudade:0.0.1-SNAPSHOT @ C:\Users\lizjb\Downloads\Tienda-Saudade-master\Tienda-Saudade-master\pom.xml.
+2022-04-25 19:03:57,006 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 19:03:57,007 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-25 19:03:57,019 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-25 19:03:57,096 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 32 resources
+2022-04-25 19:03:57,555 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.web.tienda:tienda-Saudade:0.0.1-SNAPSHOT @ C:\Users\lizjb\Downloads\Tienda-Saudade-master\Tienda-Saudade-master\pom.xml.
+2022-04-25 19:04:01,714 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 19:04:01,714 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-25 19:04:01,714 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lizjb\Downloads\Tienda-Saudade-master\Tienda-Saudade-master\src\test\resources
+2022-04-25 19:04:06,257 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 19:04:06,258 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-25 19:04:06,274 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-25 19:04:06,294 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 32 resources
+2022-04-25 19:04:07,782 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 19:04:07,783 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-25 19:04:07,783 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lizjb\Downloads\Tienda-Saudade-master\Tienda-Saudade-master\src\test\resources
+2022-04-25 19:04:40,985 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 19:04:40,986 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-25 19:04:40,988 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-25 19:04:41,003 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-25 19:04:41,006 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 19:04:41,007 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-25 19:04:41,007 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lizjb\Downloads\Tienda-Saudade-master\Tienda-Saudade-master\src\test\resources

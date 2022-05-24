@@ -1,0 +1,13 @@
+package com.web.tienda.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.web.tienda.model.Usuario;
+
+public class UsuarioService {
+	public Usuario save(Usuario user);
+	public void update(Usuario user);
+	public void delete(Usuario user);
+	public List<Usuario>findAll();
+}

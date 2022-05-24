@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;WebConfig.java&apos; to &apos;Tienda-Saudade-master_Tienda-Saudade-master/src/main/java/com.web.tienda&apos;&#x0D;&#x0A;- Original project: &apos;Tienda-Saudade-master_Tienda-Saudade-master&apos;&#x0D;&#x0A;- Destination element: &apos;Tienda-Saudade-master_Tienda-Saudade-master/src/main/java/com.web.tienda&apos;&#x0D;&#x0A;- Original element: &apos;WebConfig.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.web.tienda" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;{WebConfig.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1653155766096" units="1" version="1.0"/>
+</session>

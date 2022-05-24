@@ -1,0 +1,100 @@
+package com.web.tienda.controller;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.Optional;
+
+import org.slf4j.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
+
+import com.web.tienda.model.Producto;
+import com.web.tienda.model.Usuario;
+import com.web.tienda.service.ProductoService;
+import com.web.tienda.service.UploadFileService;
+
+@RestController
+@RequestMapping("/productos")
+public class ProductoController {
+
+	
+	private final Logger LOGGER = LoggerFactory.getLogger(ProductoController.class);
+	
+	@Autowired
+	private ProductoService productoService;
+	
+	@Autowired
+	private UploadFileService upload;
+	
+	
+	
+	@GetMapping("")
+	@CrossOrigin("http://localhost:4200")
+	public List <Producto> show() {
+		
+		Producto p = new Producto ();
+		Producto p1 = new Producto ();
+		Producto p2 = new Producto ();
+		p.setNombre("ola");
+		p.setDescripcion("crayola"); 
+		p.setTipo("pulsera");
+		
+
+		p1.setNombre("ola");
+		p1.setDescripcion("crayola"); 
+		p1.setTipo("pulsera");
+		
+		
+		p2.setNombre("ola");
+		p2.setDescripcion("crayola"); 
+		p2.setTipo("pulsera");
+		
+		productoService.save(p);
+		productoService.save(p1);
+		productoService.save(p2);
+		
+		return productoService.findAll();
+	}
+	
+	
+	@PostMapping("/save")
+	public String save(@RequestBody Producto producto) throws IOException
+	{
+		LOGGER.info("Este es el objeto producto {}",producto);
+		Usuario u = new Usuario (1,"","","","","","","");
+		producto.setUsuario(u);
+		
+		productoService.save(producto);
+		return "Producto guardado";
+		
+	}	
+	
+	
+	
+	@GetMapping("/delete/{id}")
+	public String delete(@PathVariable Integer id) {
+		
+		Producto p = new Producto();
+		p=productoService.get(id).get();
+		
+		if(!p.getImagen().equals("default.jpg")) {
+			upload.deleteImage(p.getImagen());
+			
+		}
+		
+		
+		productoService.delete(id);
+		return "Se ha borrado el producto";
+	}
+	
+}

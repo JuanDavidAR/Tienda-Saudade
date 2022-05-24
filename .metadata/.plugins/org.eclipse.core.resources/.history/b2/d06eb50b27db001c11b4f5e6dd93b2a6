@@ -1,0 +1,5 @@
+package com.web.tienda.service;
+
+public class UsuarioServiceImpl {
+
+}

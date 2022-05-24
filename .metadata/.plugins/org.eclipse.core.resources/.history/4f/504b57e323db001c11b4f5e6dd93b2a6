@@ -1,0 +1,5 @@
+package com.web.tienda.model;
+
+public class Admin {
+
+}

@@ -1,0 +1,5 @@
+package com.web.tienda.repository;
+
+public interface usuarioRepository {
+
+}
